@@ -1,0 +1,20 @@
+.video{
+   /* border-style: solid;
+   border-right-width: 5px;
+   border-color:  red;
+   border-width: 3px; */
+   background-color: white;
+  justify-content: center;
+    width: 100%;
+    height: 100%;
+    scroll-snap-align: start;
+    position: relative;
+}
+
+.video_player{
+background-color: whitesmoke;
+object-fit: fill;
+width: 100%;
+height: 100%;
+}
+

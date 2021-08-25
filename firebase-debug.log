@@ -1,0 +1,44 @@
+[debug] [2021-07-08T15:29:02.540Z] ----------------------------------------------------------------------
+[debug] [2021-07-08T15:29:02.543Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\deepa\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-07-08T15:29:02.543Z] CLI Version:   9.14.0
+[debug] [2021-07-08T15:29:02.543Z] Platform:      win32
+[debug] [2021-07-08T15:29:02.543Z] Node Version:  v14.17.0
+[debug] [2021-07-08T15:29:02.545Z] Time:          Thu Jul 08 2021 20:59:02 GMT+0530 (India Standard Time)
+[debug] [2021-07-08T15:29:02.545Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-07-08T15:29:02.559Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-07-08T15:29:02.559Z] > authorizing via signed-in user (mohitsharma352018@gmail.com)
+[debug] [2021-07-08T15:29:02.559Z] [iam] checking project tic-tok-clone-f6410 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-07-08T15:29:02.562Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-08T15:29:02.562Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-08T15:29:12.318Z] <<< HTTP RESPONSE 200 {"date":"Thu, 08 Jul 2021 15:29:05 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-08T15:29:12.409Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tic-tok-clone-f6410:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-07-08T15:29:19.113Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 08 Jul 2021 15:29:17 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1367","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-08T15:29:19.117Z] > refreshing access token with scopes: []
+[debug] [2021-07-08T15:29:19.117Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-08T15:29:22.207Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Thu, 08 Jul 2021 15:29:20 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-08T15:29:22.452Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tic-tok-clone-f6410 [none]
+[debug] [2021-07-08T15:29:27.604Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tic-tok-clone-f6410 200
+[debug] [2021-07-08T15:29:27.605Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tic-tok-clone-f6410 {"projectId":"tic-tok-clone-f6410","projectNumber":"279298067859","displayName":"tic-tok-clone","name":"projects/tic-tok-clone-f6410","resources":{"hostingSite":"tic-tok-clone-f6410","storageBucket":"tic-tok-clone-f6410.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'tic-tok-clone-f6410'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-07-08T15:29:27.611Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-07-08T15:29:27.611Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-07-08T15:29:35.966Z] <<< HTTP RESPONSE 200 {"date":"Thu, 08 Jul 2021 15:29:34 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-07-08T15:29:36.139Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tic-tok-clone-f6410/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-07-08T15:30:51.279Z] Error: socket hang up
+    at connResetException (internal/errors.js:607:14)
+    at TLSSocket.socketOnEnd (_http_client.js:499:23)
+    at TLSSocket.emit (events.js:388:22)
+    at TLSSocket.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1336:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[error] 
+[error] Error: Server Error. socket hang up

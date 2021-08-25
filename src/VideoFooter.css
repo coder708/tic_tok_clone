@@ -1,0 +1,73 @@
+.videofooter{
+    position: relative;
+    bottom: 160px;
+    color:white;
+    display: flex;
+    margin-top: 40px;
+}
+
+.videofooter__record{
+ animation: spinTheRecord infinite 5s linear ;
+ height: 50px;
+ filter: invert(1);
+position: absolute;
+bottom: 0;
+right: 0;
+ 
+}
+
+@keyframes spinTheRecord{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.videofooter__text {
+    flex:1;
+    padding-bottom: 20px;
+}
+
+.videofooter__ticker p{
+    padding-top: 7px;
+    font-size: 12px;
+}
+
+.videofooter__ticker{
+    display: flex;
+}
+
+.videoFooter__icon{
+    position: absolute;
+}
+
+.videoFooter__ticker .ticker{
+    height: fit-content;
+    margin-left: 30px;
+    width: 60%;
+}
+
+.videoFooter__ticker h1{
+    padding: 7px;
+}
+
+ .img1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top:10px;
+}
+
+.video__header{
+    position: absolute;
+    bottom: 700px;
+}
+
+
+
+
+
+
